@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 // CORS
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://bitbrains.in', 'http://localhost:3001', 'https://texo.bitbrains.in'],
+    origin: ['http://localhost:3000', 'https://bitbrains.in', 'http://localhost:3001', 'https://texo.bitbrains.in', "https://texo-bitbrains.netlify.app/"],
     credentials: true,            //access-control-allow-credentials:true
 }));
 
